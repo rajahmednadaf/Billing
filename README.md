@@ -1,2 +1,2 @@
 # Billing
-Billing software using OOT
+Billing software using Object Oriented Technology
