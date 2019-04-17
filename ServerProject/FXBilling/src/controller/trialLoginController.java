@@ -56,14 +56,18 @@ public class trialLoginController {
             if (rs.next()){
                 System.out.println("Name: "+rs.getString("firstname")+" "+rs.getString("lastname"));
                 //loginOutput.setText(rs.getString("firstname")+" "+rs.getString("lastname"));
-              /*  root = FXMLLoader.load(getClass().getResource("../view/dashboard.fxml"));
+              /*  root = FXMLLoader.load(getClass().getResource("../view/trialDashboard.fxml"));
                 Stage stage = new Stage();
                 stage.setTitle("Dashboard");
                 stage.setScene(new Scene(root));
                 stage.show();
                 */
                 Stage stage = (Stage) loginButton.getScene().getWindow();
+<<<<<<< HEAD
                 Parent root = FXMLLoader.load(getClass().getResource("../view/billTemplate.fxml"));
+=======
+                Parent root = FXMLLoader.load(getClass().getResource("../view/trialDashboard.fxml"));
+>>>>>>> c4e9e1504d5d4d55f821d003f7f4fa88044cf1f1
                 //Scene scene =  (Scene) loginButton.getScene();
                 Scene scene =  new Scene(root, 800 ,600);
                 scene.setRoot(root);
